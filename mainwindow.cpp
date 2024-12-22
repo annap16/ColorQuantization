@@ -23,7 +23,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->graphicsView_origin->setScene(sceneOrigin);
     sceneTransformed = new QGraphicsScene(this);
     ui->graphicsView_transformed->setScene(sceneTransformed);
-    QString path = "../../story_lena_lenna_1";
+    QString path = "../../story_lena_lenna";
     UploadImage(path);
     imageTrans = new ImageTransformation(sceneTransformed, originImage->image);
     sceneTransformed->addItem(imageTrans);
