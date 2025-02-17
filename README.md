@@ -1,4 +1,11 @@
-# Kwantyzacja palety kolorów
+
+# Choose your language version
+- [Polski](#color-quant-pol)
+- [English](#color-quant-en)
+
+---
+
+# Kwantyzacja palety kolorów <a name="color-quant-pol"></a>
 ![Screenshot](https://private-user-images.githubusercontent.com/160714456/413885750-748ad039-76ee-4d26-b12f-44d23585fc64.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDA1NDgsIm5iZiI6MTczOTgwMDI0OCwicGF0aCI6Ii8xNjA3MTQ0NTYvNDEzODg1NzUwLTc0OGFkMDM5LTc2ZWUtNGQyNi1iMTJmLTQ0ZDIzNTg1ZmM2NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxMzUwNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZDkxOGU0OTY4NDU5MmEyZDQ4Y2QzY2E1NGIzZmIzNzA1NGFmNWRkYjA2ZGU1MWU3NWRiZjM3YTQzOTFmOTg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wpqGYdbCY97RMOWZebtbNSWWpYBt7145XDIaZ_CF_2o)
 
 Repozytorium zawiera projekt implementujący algorytmy ditheringu dla obrazów. Celem projektu jest stworzenie algorytmów: algorytmu popularnościowego oraz algorytmów drżenia (ordered dithering random/relative, error diffusion dithering, average dithering),
@@ -30,7 +37,7 @@ Ordered Dithering to technika ditheringu, która używa ustalonego wzorca, by pr
 ### 4. Algorytm Popularnościowy
 Działa na zasadzie przypisania każdemu pikselowi obrazu jednego z wybranych kolorów, bazując na popularności (częstotliwości występowania) kolorów w obrazie. Wybór liczby kolorów do redukcji obrazu oraz samych kolorów można ustawić jako K.
 
-# Color Palette Quantization
+# Color Palette Quantization <a name="color-quant-en"></a>
 ![Screenshot](https://private-user-images.githubusercontent.com/160714456/413885750-748ad039-76ee-4d26-b12f-44d23585fc64.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDA1NDgsIm5iZiI6MTczOTgwMDI0OCwicGF0aCI6Ii8xNjA3MTQ0NTYvNDEzODg1NzUwLTc0OGFkMDM5LTc2ZWUtNGQyNi1iMTJmLTQ0ZDIzNTg1ZmM2NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxMzUwNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZDkxOGU0OTY4NDU5MmEyZDQ4Y2QzY2E1NGIzZmIzNzA1NGFmNWRkYjA2ZGU1MWU3NWRiZjM3YTQzOTFmOTg0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wpqGYdbCY97RMOWZebtbNSWWpYBt7145XDIaZ_CF_2o)
 
 This repository contains a project implementing dithering algorithms for images. The goal of the project is to create algorithms: the popularity algorithm and dithering algorithms (ordered dithering random/relative, error diffusion dithering, average dithering), which are widely used in computer graphics to reduce images to a limited number of colors. 
